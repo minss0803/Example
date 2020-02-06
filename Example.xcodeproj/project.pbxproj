@@ -46,6 +46,10 @@
 		41FE99E722AAD08A008135A0 /* NavigationButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE99E622AAD08A008135A0 /* NavigationButtonPage.swift */; };
 		41FE99E922AAD7B0008135A0 /* EditButtonPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE99E822AAD7B0008135A0 /* EditButtonPage.swift */; };
 		41FE99F022AADF9F008135A0 /* DatePickerPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FE99EF22AADF9F008135A0 /* DatePickerPage.swift */; };
+		75842B8023EC0AB300631683 /* Appfile in Resources */ = {isa = PBXBuildFile; fileRef = 75842B7C23EC0AB300631683 /* Appfile */; };
+		75842B8123EC0AB300631683 /* Fastfile in Resources */ = {isa = PBXBuildFile; fileRef = 75842B7D23EC0AB300631683 /* Fastfile */; };
+		75842B8223EC0AB300631683 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 75842B7E23EC0AB300631683 /* README.md */; };
+		75842B8323EC0AB300631683 /* report.xml in Resources */ = {isa = PBXBuildFile; fileRef = 75842B7F23EC0AB300631683 /* report.xml */; };
 		BD99734E23B49BB800A3E3F0 /* FormPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD99734D23B49BB800A3E3F0 /* FormPage.swift */; };
 		D74985BC231634DA00C4D46D /* Window+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = D74985BB231634DA00C4D46D /* Window+Ext.swift */; };
 /* End PBXBuildFile section */
@@ -92,6 +96,10 @@
 		41FE99E622AAD08A008135A0 /* NavigationButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationButtonPage.swift; sourceTree = "<group>"; };
 		41FE99E822AAD7B0008135A0 /* EditButtonPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonPage.swift; sourceTree = "<group>"; };
 		41FE99EF22AADF9F008135A0 /* DatePickerPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerPage.swift; sourceTree = "<group>"; };
+		75842B7C23EC0AB300631683 /* Appfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Appfile; sourceTree = "<group>"; };
+		75842B7D23EC0AB300631683 /* Fastfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Fastfile; sourceTree = "<group>"; };
+		75842B7E23EC0AB300631683 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		75842B7F23EC0AB300631683 /* report.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = report.xml; sourceTree = "<group>"; };
 		BD99734D23B49BB800A3E3F0 /* FormPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormPage.swift; sourceTree = "<group>"; };
 		D74985BB231634DA00C4D46D /* Window+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Window+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -183,6 +191,7 @@
 			isa = PBXGroup;
 			children = (
 				4196ABC622A97AB1008B8FD2 /* Example */,
+				75842B7B23EC0AB300631683 /* fastlane */,
 				4196ABC522A97AB1008B8FD2 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -276,6 +285,17 @@
 			path = Image;
 			sourceTree = "<group>";
 		};
+		75842B7B23EC0AB300631683 /* fastlane */ = {
+			isa = PBXGroup;
+			children = (
+				75842B7C23EC0AB300631683 /* Appfile */,
+				75842B7D23EC0AB300631683 /* Fastfile */,
+				75842B7E23EC0AB300631683 /* README.md */,
+				75842B7F23EC0AB300631683 /* report.xml */,
+			);
+			path = fastlane;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -334,7 +354,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75842B8223EC0AB300631683 /* README.md in Resources */,
+				75842B8123EC0AB300631683 /* Fastfile in Resources */,
+				75842B8023EC0AB300631683 /* Appfile in Resources */,
 				4196ABD422A97AB2008B8FD2 /* LaunchScreen.storyboard in Resources */,
+				75842B8323EC0AB300631683 /* report.xml in Resources */,
 				4196ABD122A97AB2008B8FD2 /* Preview Assets.xcassets in Resources */,
 				4196ABCE22A97AB2008B8FD2 /* Assets.xcassets in Resources */,
 			);

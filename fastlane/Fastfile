@@ -18,15 +18,15 @@ default_platform(:ios)
 platform :ios do
 
   desc "Description of what the lane does"
-  lane :generate_ipa_develop do
+  lane : build_ipa do
     build_ios_app(
-      configuration: "Debug",
-      scheme: "Test",
-      clean: true,
-      export_method: 'development',
-      output_directory: "~/Desktop", # Destination directory. Defaults to current directory.
-      output_name: "fastlane_jenkins.ipa",
-    )
+      workspace: WORKSPACE_NAME,
+      scheme: SCHEME_NAME,
+      output_directory: PATH_FOR_IPA,
+      output_name: IPA_NAME,
+      export_method: “app-store”,
+      include_bitcode: false,
+      clean: true)
   end
 
   desc "Push a new beta build to TestFlight"
